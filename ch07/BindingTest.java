@@ -11,6 +11,7 @@ public class BindingTest {
         c.method();
     }
 }
+
 class Parent2{
     int x =100;
     void method(){
