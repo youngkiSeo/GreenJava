@@ -30,7 +30,7 @@ class Buyer{
         System.out.printf("나의 잔고: %d만원\n", this.money);
         System.out.printf("보너스 점수는 %,d 점입니다\n",this.bonusPoint);
     }
-
+//123
 }
 class Product{
     protected int price;
