@@ -11,7 +11,6 @@ public class BindingTest {
         c.method();
     }
 }
-
 class Parent2{
     int x =100;
     void method(){
@@ -20,7 +19,7 @@ class Parent2{
 }
 class Child2 extends Parent2{
     int x =200;
-
+    @Override //부모 메소드 오버라이딩 확인
     void method(){
         System.out.println("Child Method");
     }
