@@ -12,8 +12,10 @@ public class PolyArgumentTest2 {
         buyer3.buy3(new Audio3());
         buyer3.buy3(new Audio3());
         buyer3.buy3(new Audio3());
+        buyer3.summary();
+        buyer3.summary();
 
-        buyer3.printState3();
+        //buyer3.printState3();
     }
 }
 
@@ -32,12 +34,13 @@ class Buyer3 {
     }
     void buy3(Product3 product) {
 
-        for (int i = 0; i < items.length; i++) {
-            if(items[i]==null){
-                items[i]=product;
-                break;
-            }
-        }
+//        for (int i = 0; i < items.length; i++) {
+//            if(items[i]==null){
+//                items[i]=product;
+//                break;
+//            }
+//        }
+        items[idx++]=product;
 
         System.out.printf("%S을 %d만원에 구매하였습니다.\n", product.toString(), product.getPrice());
         this.bonusPoint += product.getBonusPoint();
@@ -45,10 +48,15 @@ class Buyer3 {
 
 
     }
-
-
+    void summary(){
+        System.out.print("현재 구입하신 제품은 "+items[0]);
+        for (int i = 1; i <idx; i++) {
+            System.out.print(","+items[i]);
+        }
+        System.out.printf(" 총 %d개입니다.\n",idx);
+    }
     void printState3() {
-        System.out.println("현재 구매한 제품은"+ Arrays.toString(items));
+
         System.out.printf("나의 잔고: %d만원\n", this.money);
         System.out.printf("보너스 점수는 %,d 점입니다\n", this.bonusPoint);
     }
@@ -113,4 +121,3 @@ class Audio3 extends Product3{
         return "Audio3";
     }
 }
-
