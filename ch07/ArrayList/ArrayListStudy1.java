@@ -1,13 +1,15 @@
 package com.green.java.ch07.ArrayList;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class ArrayListStudy1 {
     public static void main(String[] args) {
         ArrayList arraylist = new ArrayList();
         arraylist.add(10); // 0번방
         arraylist.add(20);// 1번방
-        arraylist.add("ddd"); // 정수값도, 문자열도 아무거나 다들어감
+        arraylist.add("ddd"); // Object타입은 정수값도, 문자열도 아무거나 다들어감
 
         Object obj = 10; //Object 타입은 숫자도 저장할수있음
 
@@ -18,5 +20,15 @@ public class ArrayListStudy1 {
         int n1 = (int)arraylist.get(0);  //Object타입이라서 object 타입으로 뱉어내기 때문에 강제 형변환을 해줘야함
         int n2 = (int)arraylist.get(1);
         String str1 = (String)arraylist.get(2);
+        ArrayList<String> strlist= new ArrayList<>();
+
+        strlist.add("0번방");
+        strlist.add("1번방");
+        strlist.add("2번방");
+        strlist.add("3번방");
+        System.out.println(strlist);
+        System.out.println("shuffle 중...");
+        Collections.shuffle(strlist);
+        System.out.println(strlist);
     }
 }

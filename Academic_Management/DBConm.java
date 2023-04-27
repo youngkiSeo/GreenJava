@@ -32,7 +32,6 @@ public class DBConm {
 		} catch (SQLException e) {
 			System.out.println("MYSQL 연결 객체 생성 실패" + e);
 			System.exit(0);
-		}	
-
+		}
 	}
 }

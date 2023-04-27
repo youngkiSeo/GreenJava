@@ -7,13 +7,13 @@ public class PolyArgumentTest2 {
         Tv3 tv3 = new Tv3();
         Computer3 com3 = new Computer3();
         Buyer3 buyer3 = new Buyer3();
-        buyer3.buy3(tv3);
-        buyer3.buy3(com3);
-        buyer3.buy3(new Audio3());
-        buyer3.buy3(new Audio3());
-        buyer3.buy3(new Audio3());
+//        buyer3.buy3(tv3);
+//        buyer3.buy3(com3);
+//        buyer3.buy3(new Audio3());
+//        buyer3.buy3(new Audio3());
+//        buyer3.buy3(new Audio3());
         buyer3.summary();
-        buyer3.summary();
+        buyer3.printState3();
 
         //buyer3.printState3();
     }
@@ -43,6 +43,7 @@ class Buyer3 {
         items[idx++]=product;
 
         System.out.printf("%S을 %d만원에 구매하였습니다.\n", product.toString(), product.getPrice());
+        this.money-= product.getPrice();
         this.bonusPoint += product.getBonusPoint();
         //items[idx++]=product;
 

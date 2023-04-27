@@ -57,4 +57,29 @@ public class MyArrayList {
         str+="]";
         return str;
     }
+    public int size(){
+        return items.length;
+    }
+
+
+    public int get(int i) {
+        return items[i];
+    }
+
+    public void bubbleStart() {
+        int num = 0;
+        System.out.println(Arrays.toString(items));
+        for (int i = 0; i <items.length; i++) {
+            for (int z = 0; z < i; z++) {
+                if (items[z] > items[z+1]) {
+                    num = items[z];
+                    items[z]=items[z+1];
+                    items[z+1]=num;
+                    System.out.println(Arrays.toString(items));
+                }
+            }
+        }
+        System.out.println(Arrays.toString(items));
+
+    }
 }

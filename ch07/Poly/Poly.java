@@ -9,7 +9,7 @@ public class Poly {
                 실제 실행되는 건 객체 기준이다.
      */
     public static void main(String[] args) {
-        Animal ani1 = (Animal) new Dog("뽀삐"); //상속관계
+        Animal ani1 = (Animal) new Dog(); //상속관계
         ani1.crying();
 
         //Animal dog2 = new Animal();

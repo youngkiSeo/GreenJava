@@ -15,5 +15,6 @@ public class ArrayListStudy3 {
         System.out.println(list);
         int removeValue = list.remove(4);
         System.out.println(list+ "removeValue: " + removeValue);
+        System.out.println(list.size());
     }
 }
