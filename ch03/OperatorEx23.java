@@ -13,8 +13,7 @@ public class OperatorEx23 {
         System.out.println(s2.equals(s3));
         String s4 = new String("abc");
         System.out.printf("s1.equals(s4): ", s1.equals(s4));
-
-
-
+        System.out.println(s2);
+        System.out.println(s1);
     }
 }

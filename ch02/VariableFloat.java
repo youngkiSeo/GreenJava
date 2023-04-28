@@ -12,6 +12,7 @@ public class VariableFloat {
 
         long l1 = 100;
         float f2 = l1;
+        double d2 = f2;
         System.out.println(f2);
 
         double d1 = 9.77;

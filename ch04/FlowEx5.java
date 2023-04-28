@@ -26,7 +26,6 @@ public class FlowEx5 {
                 opt = ' ';
             }
 
-
             if (grade != 'D') {
                 int num = score %10;
                 if (num >= 8 || score==100) {

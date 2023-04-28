@@ -17,7 +17,5 @@ public class OperatorEx21 {
 
         System.out.println(a-num);
 
-
-
     }
 }

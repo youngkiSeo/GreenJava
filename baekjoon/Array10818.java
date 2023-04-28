@@ -14,7 +14,6 @@ public class Array10818 {
             num[i]= X;
         }
         for(int i=0; i< num.length; i++){
-
             if(max<num[i]){
             max=num[i];
             min=max;

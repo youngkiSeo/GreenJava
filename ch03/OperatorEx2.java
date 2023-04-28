@@ -4,7 +4,7 @@ public class OperatorEx2 {
     public static void main(String[] args) {
         int i = 5, j =0;
 
-        j= i ++; // i를 먼저 읽고 J를 읽음 고로 J++
+        j= i  ++; // i를 먼저 읽고 J를 읽음 고로 J++
         System.out.printf("j=i++; 실행 후 i =%d, j = %d\n", i , j);
 
 

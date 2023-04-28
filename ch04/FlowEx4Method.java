@@ -19,8 +19,6 @@ class Scoreobj {
                 }
                 // System.out.printf("%d점의 학점은 %c입니다.", score, grade);
             }
-
-
         return grade;
     }
 }

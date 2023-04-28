@@ -9,10 +9,10 @@ public class Naming {
         // 파스칼 케이스 기법 > 클래스명
         String HelloWorldBye;
 
-        // 카멜 케이스 기법 > 변수명, 메소드명
+        // 카멜 케이스 기법 > 변수명, 메소드명 //낙타 등같다고 카멜 케이스 기법 첫글자만 소문자 나머지는 대문자
         String helloWorldBye;
 
-        // 스네이크 케이스 기법
+        // 스네이크 케이스 기법 > 언더바
         String hello_world_bye;
 
         // 케밥 케이스 기법
@@ -40,7 +40,5 @@ public class Naming {
         //상수는 전부 대문자, 스네이크 케이스 기법
         final int NUM = 13;
         //NUM = 20;
-
-
     }
 }
