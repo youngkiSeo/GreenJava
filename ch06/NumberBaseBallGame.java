@@ -48,8 +48,9 @@ public class NumberBaseBallGame {
             int rVal = getRadomNumber2(1,9);
             for (int i = 0; i <selectedIdx; i++) {
                 if (arr[i] == rVal){
-                    continue Loop;
-                }
+                continue Loop;
+            }
+
             }
             arr[selectedIdx++] = rVal;
         }

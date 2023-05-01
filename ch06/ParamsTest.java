@@ -14,7 +14,7 @@ public class ParamsTest {
         static void changeNum(int num){
             num=20;
         }
-        static Numberbox changeNum2(Numberbox nb2){
+        static  Numberbox changeNum2(Numberbox nb2){
             nb2.num=20;
             System.out.println("nb2 num = "+nb2.num);
             return nb2;

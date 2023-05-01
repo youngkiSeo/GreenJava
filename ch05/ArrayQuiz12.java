@@ -16,8 +16,14 @@ public class ArrayQuiz12 {
 
             System.out.printf("numArr[%d],랜덤인덱스[%d]", i, rand);
             System.out.println(Arrays.toString(numArr));
+            for (int nm: numArr
+            ) {
+                System.out.printf("names[%d]: %d \n ", i++,nm);
+
+            }
 
         }
+
         //System.out.println(Arrays.toString(numArr));
     }
 }

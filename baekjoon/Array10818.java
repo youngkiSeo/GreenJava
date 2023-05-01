@@ -7,8 +7,8 @@ public class Array10818 {
         Scanner scan = new Scanner(System.in);
         int N = scan.nextInt();
         int [] num = new int [N];
-        int max =0;
-        int min =0;
+        int max =1000000;
+        int min =-100000;
         for(int i=0; i< num.length; i++){
             int X = scan.nextInt();
             num[i]= X;
@@ -23,6 +23,6 @@ public class Array10818 {
             if(min>num[i]){
                 min=num[i];
             }
-        }System.out.printf("%d %d",min,max);
+        }System.out.println(min+" "+max);
     }
 }
