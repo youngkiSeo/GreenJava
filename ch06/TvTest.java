@@ -22,5 +22,8 @@ public class TvTest {
         tv.channelUp();
         System.out.printf("channel : %d \n",tv.channel);
 
+        Tv tv3 = new Tv();
+        System.out.println(tv3.channel);
+
     }
 }

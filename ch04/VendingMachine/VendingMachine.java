@@ -1,4 +1,4 @@
-package com.green.java.ch04;
+package com.green.java.ch04.VendingMachine;
 
 import java.util.ArrayList;
 import java.util.Arrays;

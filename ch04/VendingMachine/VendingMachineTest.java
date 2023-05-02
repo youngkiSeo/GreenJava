@@ -1,4 +1,4 @@
-package com.green.java.ch04;
+package com.green.java.ch04.VendingMachine;
 
 public class VendingMachineTest {
     public static void main(String[] args) {
