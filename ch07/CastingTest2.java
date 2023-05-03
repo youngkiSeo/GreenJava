@@ -9,6 +9,5 @@ public class CastingTest2 {
         car.drive();
         //fc= (FireCar) car; //자식타입은 부모를 저장할수없다
 
-
     }
 }

@@ -33,4 +33,3 @@ class FireCar extends Car{
         System.out.println("water!!!!");
     }
 }
-

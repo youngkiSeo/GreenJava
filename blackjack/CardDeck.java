@@ -3,6 +3,7 @@ package com.green.java.blackjack;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 
 public class CardDeck {
     public static final String [] PATTERNS = {"♦","♠","♣","♥"};
@@ -18,6 +19,7 @@ public class CardDeck {
             }
         }
     }
+
     private String getDenomination(int num){
         switch (num) {
             case 1:
@@ -32,11 +34,21 @@ public class CardDeck {
                 return String.valueOf(num);
         }
     }
+
     public static void main(String[] args) {
           CardDeck cd = new CardDeck();
         cd.cardlist.remove(1);
         for (Card card: cd.cardlist) {
             System.out.print(card.getDenomination()+card.getPattern()+"  ");
         }
+    }
+
+    public Card getCard(){
+        int rIdx=(int)(Math.random()*cardlist.size());
+        return cardlist.remove(rIdx);
+    }
+
+    public void showSize(){
+        System.out.println(cardlist.size());
     }
 }

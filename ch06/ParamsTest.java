@@ -8,9 +8,7 @@ public class ParamsTest {
         System.out.println(num);
         changeNum2(nb);
         System.out.println(nb.num);
-
     }
-
         static void changeNum(int num){
             num=20;
         }

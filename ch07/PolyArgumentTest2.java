@@ -1,5 +1,6 @@
 package com.green.java.ch07;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class PolyArgumentTest2 {
@@ -24,12 +25,14 @@ class Buyer3 {
     private int money;
     private int bonusPoint;
     private Product3[]items;
+    private ArrayList<String>list;
     private int idx;
 
     Buyer3() {
         this.money = 1000;
         this.bonusPoint = 0;
         this.items= new Product3[10];
+        this.list=new ArrayList<>();
         this.idx=0;
     }
     void buy3(Product3 product) {
@@ -46,8 +49,6 @@ class Buyer3 {
         this.money-= product.getPrice();
         this.bonusPoint += product.getBonusPoint();
         //items[idx++]=product;
-
-
     }
     void summary(){
         System.out.print("현재 구입하신 제품은 "+items[0]);

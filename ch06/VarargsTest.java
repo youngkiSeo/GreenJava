@@ -2,7 +2,7 @@ package com.green.java.ch06;
 
 import java.util.Arrays;
 
-public class VarargsTest { //Varargs 가변인자
+public class VarargsTest { //Varargs 가변인자줄임말
     public static void main(String[] args) {
         //자동으로 정수형 배열로 만들어준다.
 

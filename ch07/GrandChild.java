@@ -5,5 +5,4 @@ public class GrandChild extends Child {
         super(1);
         System.out.println("-- GrandChild 기본 생성자 --");
     }
-
 }
