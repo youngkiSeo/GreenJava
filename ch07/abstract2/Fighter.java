@@ -1,9 +1,18 @@
 package com.green.java.ch07.abstract2;
 
-public class Fighter implements Fightable{
+public class Fighter implements Fightable, Runable{
     @Override
     public void sum(int x, int y) {
         System.out.println("파이터 sum: " + (x+y));
+
+    }
+    @Override
+    public void fly(){
+
+    }
+
+    @Override
+    public void run() {
 
     }
 

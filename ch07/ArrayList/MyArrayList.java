@@ -82,4 +82,16 @@ public class MyArrayList {
         System.out.println(Arrays.toString(items));
 
     }
+
+    public void set(int num1,int num2){
+        this.items[num1]=num2;
+    }
+    public boolean contains(int num){
+        for (int val:items) {
+            if (val == num){
+                return true;
+            }
+        }
+        return false;
+    }
 }

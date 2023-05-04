@@ -16,5 +16,6 @@ public class ArrayListStudy3 {
         int removeValue = list.remove(4);
         System.out.println(list+ "removeValue: " + removeValue);
         System.out.println(list.size());
+        list.clear();//전체삭제
     }
 }

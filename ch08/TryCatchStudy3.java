@@ -2,8 +2,7 @@ package com.green.java.ch08;
 
 public class TryCatchStudy3 {
     public static void main(String[] args) {
-        int r = div(10,5
-          );
+        int r = div(10,5);
         System.out.println(r);
 
     }

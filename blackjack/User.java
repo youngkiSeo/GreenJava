@@ -16,4 +16,18 @@ public abstract class User {
     public List<Card> openCards(){
         return cardlist;
     }
+
+    protected int getPointSum(){
+        return Rule.getScore(cardlist);
+    }
+    public void showCards(){
+        System.out.printf("[현재 보유 카드 목록]\n");
+//        for (int i = 0; i <cardlist.size(); i++) {
+//            System.out.printf("Card { %s, %s }\n",cardlist.get(i).getPattern(),cardlist.get(i).getDenomination());
+//        }
+        for (Card card:cardlist) {
+            System.out.println(card);
+        }
+
+    }
 }

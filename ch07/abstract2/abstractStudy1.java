@@ -22,7 +22,6 @@ class ChildClass extends abstractStudy1{
     }
 }
 class Child2Class extends abstractStudy1{
-
     @Override
     void sum(int n1, int n2) {
         System.out.println("sum: " +(n1 + n2));

@@ -1,11 +1,12 @@
 package com.green.java.ch07.ArrayList;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
+import java.util.*;
 
 public class ArrayListStudy1 {
     public static void main(String[] args) {
+        List<String>list = new ArrayList(); //배열 읽기만하면 arraylist
+        LinkedList linkedList = new LinkedList<>(); // 모드로 처리함 수정이 많으면 링크드리스트가 편리함
+
         ArrayList arraylist = new ArrayList();
         arraylist.add(10); // 0번방
         arraylist.add(20);// 1번방
@@ -30,5 +31,9 @@ public class ArrayListStudy1 {
         System.out.println("shuffle 중...");
         Collections.shuffle(strlist);
         System.out.println(strlist);
+
+        for (Object i:arraylist) {
+            System.out.println("i: "+i);
+        }
     }
 }

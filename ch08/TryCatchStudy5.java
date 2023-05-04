@@ -1,7 +1,8 @@
 package com.green.java.ch08;
 
 public class TryCatchStudy5 {
-    public static void main(String[] args) {
+    public static void main(String[] args){
+
         try {
             getConnection();
         } catch (Exception e) {
