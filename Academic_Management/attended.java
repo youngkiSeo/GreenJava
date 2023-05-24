@@ -309,7 +309,6 @@ public class attended extends JFrame implements ActionListener {
 		try {
 			dtm.setRowCount(0);
 			String query = "SELECT * FROM subject left OUTER JOIN (SELECT * FROM attended where std_code=?) as att on(subject.code = att.subj_code)";
-
 			pstmt = connector.conn.prepareStatement(query);
 			pstmt.setString(1, code.getText());
 			rs = pstmt.executeQuery();
