@@ -1,0 +1,45 @@
+mysql --version
+mysql -uroot -p
+Ctrl-C -- exit!
+
+show databases;
+자연키-의미있는키 pk는 null이 안들어감 not null 이 들어감
+FOREIGN KEY 외래키
+FOREIGN KEY(person_id) REFERENCES참조 person(person_id)
+fk db의 제약조건을 왜하냐 잘못된 값이 안들어가게 위해서
+
+UNSIGNED 양수값만쓰겠다. SIGNED-디폴트값
+
+favorite_food table 에서 두개합쳐서 primary key 가되면
+pk는 중복되지않는값이될수있음 레코드들의 유니크값
+
+INSERT문
+문자열 합치기 CONCAT(NAME,'man')
+중복제거 distinct actor_id
+
+select문 
+ifnull:Column의 값이 NULL을 반환할 때, 다른 값으로 출력할 수 있도록 하는 함수
+
+Alias As 알리아스 column을 바꿔주는
+!= <>
+between 
+Like %사임% %사임 사임%
+
+order by column 기준으로 정렬
+내림차순 DESC (ORDER BY rental_id DESC;)
+오름차순 asc
+group by
+having  
+순서: from ->where ->order by
+
+distinct 중복제거
+Scala값 coumn값이 하나 나오는
+Join의 종류 - Inner join, Left join
+
+XML -- 확장이 가능한 마크업 랭귀지
+
+JSON
+javaScript Object Notation
+
+https://picsum.photos/
+https://www.lipsum.com/

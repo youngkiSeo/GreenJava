@@ -1,0 +1,24 @@
+
+-- ch07단원 --
+문자열 합치기 - Concat(A, ' ', B);
+
+char_LENGTH: SELECT lname,char_LENGTH(lname)FROM person; 
+
+문자열 찾기: Position('터너', in lname);
+
+정규 표현식: regexp '^[C]'
+
+문자열 바꾸기 replace(first_name, 'BA', 'DA' );
+
+문자열 사이에 집어넣기: INSERT('goodbye world',9,0,'cruel ')
+
+RUNCATE: 실수 자르기 ABS: 절대값 양수값 만들기.
+round() : 반올림해서 실수자르기 가능
+
+SELECT NOW(), CURRENT_DATE(), CURRENT_TIME(), CURRENT_TIMESTAMP();
+
+-- 형변환 CAST CONVERT
+
+시간차이 구하기 함수 : DATEDIFF 
+
+

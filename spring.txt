@@ -1,0 +1,27 @@
+
+restful
+
+메소드로 구분
+CRUD
+(post/get/put(patch)/delete)
+-쿼리스트링 형식 주소뒤에 물음표 @RequestParam
+-form Data 형식 
+-json형식 @RequestBody 값 적어야함 
+{" aaa" : "ffff",  "bbb":1 } 중괄호로 열고 닫고, 키와 value 키는 왼쪽 value는 오른쪽
+-Path variable
+
+MVC 템블린 엔진
+
+Model 	DB쪽은 모델
+View 	화면은 뷰 프론트엔드
+Controller model과 view를 분리시켜주는 매개체
+
+
+BoardEntity
+Controller - > Board Mapper -> Board Service - > BoardMapper.xml(DB)
+
+http://localhost:8080/swagger-ui/index.html
+
+IOC : Inversion of Control (제어의 역전) 메소드나 객체의 호출작업을 개발자가 결정 하는 것이 아니라 외부에서 결정하는것
+소스를 수정할 필요가 없는게 장점
+

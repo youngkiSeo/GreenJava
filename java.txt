@@ -1,0 +1,47 @@
+JRE  자바실행환경 > JVM > GC 
+JDK 자바 개발 도구\\        
+// Math.round 반올림
+// Math.ceil 올림
+// Math.floor 내림
+b= 0; ++b = 1
+j= i ++; // i를 먼저 읽고 J를 읽음 고로 
+
+스택메모리
+new 객체 는 힙메모리 로 저장됨
+
+객체 = 인스턴스
+객체가 메모리에 할당되어 실제 사용될 때 인스턴스(instance) 라고 부른다
+
+shift + Alt = 위아래 이동
+
+(int) (Math.random() * (max-min+1)) + min;
+
+super(); 부모 생성자 호출
+this(); 생성자 호출
+
+생성자는 1. return타입이 없다. 
+class 명이랑 같다. 생성자는 클래스가 new 표현식에 의해 인스턴스화되어
+객체를 생성할 때 객체의 레퍼런스를 생성하기 전에 객ㅊ의 초기화를 위해 사용되는 코드 블록이다.
+
+        1.부모타입은 자식 객체 주소값 저장할 수 있다.
+        2.자식타입은 무보객체 주소값 저장 할 수 없다.
+        3.타입은 (알고 있는 메소드만 호출할 수 있음)
+                (메소드를 호출할 수 있나 없나만 결정)>>
+                실제 실행되는 건 객체 기준이다.
+
+String str2 = "A, B, C, D, E";
+        String[] strArr = str2.split(", ");
+
+문자열 합치기 append
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("하하");
+        sb.append("후후");
+
+        System.out.println(sb.toString());
+
+오버로드 오버라이딩 차이점
+@Override -오버라이딩
+부모의 메소드 복사하여 재정의하는것 선언부가 같아야한다.
+
+오버로드 매개변수의 개수 타입이 달라야함
