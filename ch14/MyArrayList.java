@@ -1,7 +1,5 @@
 package com.green.java.ch14;
 
-import java.util.function.Predicate;
-
 @FunctionalInterface
 interface MyConsomer{
     void accept(int num);

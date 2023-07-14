@@ -1,8 +1,5 @@
 package com.green.java.ch14;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class MyArrayListTest6 {
     public static void main(String[] args) {
         MyArrayList ma = new MyArrayList();

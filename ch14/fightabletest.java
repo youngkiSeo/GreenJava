@@ -1,8 +1,6 @@
 package com.green.java.ch14;
 
 
-import com.green.java.ch14.Fightable;
-
 public class fightabletest {
 
     public static void run(Fightable f){
